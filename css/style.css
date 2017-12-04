@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+hr {
+    color: #ffffff;
+}
+li {
+	display: inline;
+	font-family: Montserrat, sans-serif;
+	font-style: thin;
+	font-weight: 300;
+	text-align: center;
+	color: #292828;
+	
+    
+}
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+h1{
+	font-family: Montserrat, sans-serif;
+	font-style: thin;
+	font-weight: 300;
+	text-align: center;
+	color: #292828;
+}
+/*IDs*/
+
+#img-me {
+    border-radius: 50px;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 38%;
+    margin: 0 auto;
+    
+}
+#navbar ul li {  
+	display: inline;
+ 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: rgba(3, 1, 105, 0.726); 
+	
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+#navigation{
+		
+	}
+/* Classes */
+
+.center{
+    border: 3px solid #eec8bb;
+    Padding: 8px;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+.btn{
+	background-color:  #EBCFCC;
+}
+/* Carousel */
+.carousel {
+   
+    overflow: hidden;
+}
+.carousel .item {
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.carousel .active.left, .carousel .active.right {
+    left:0;
+    opacity:0;
+    z-index:2;
+}
+.carousel .next, .carousel .prev {
+    left:0;
+    opacity:1;
+    z-index:1;
+}
+.item:nth-child(1) {
+  background: darkred;
+}
+
+.item:nth-child(2) {
+  background: red;
+}
+
+.item:nth-child(3) {
+  background: orange;
+}
+/* Thumbnails */
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(90, 90, 90, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align: left;
+    color:#fff !important;
+    z-index:2;
+}
+
+/*Style For Header*/
+.header {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #cecccd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+.footer-distributed{
+	background-color: #cecccd;
+	box-shadow: 0 1px 1px 0 #1e2d4e00;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: light 16px sans-serif;
+	padding: 55px 30px;
+	margin-top: 5%;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #cecccd;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: light;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #d1cfd4;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
